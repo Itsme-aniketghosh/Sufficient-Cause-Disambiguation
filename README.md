@@ -6,7 +6,8 @@ When a language model classifies a document, multiple features often independent
 
 The framework is built on Rothman's (1976) epidemiological Sufficient Cause Model and applied to Llama-3-8B-Instruct on WOS-46985. The central finding is that the subclass representational subspace and the output decision axis are causally independent: removing everything the model knows about subclass identity from its hidden state leaves the prediction unchanged, while flipping the prediction moves the representation into a different CS subclass, not into Medical. Two fully independent subspaces.
 
-Course project for CS 7180 Actionable Interpretability, Northeastern University, Spring 2026. Advisor: Bryan Wallace.
+Course project for CS 7180 Actionable Interpretability, Northeastern University, Spring 2026.
+Advisor: [Bryan Wallace](https://www.byronwallace.com/).
 
 ---
 
