@@ -6,9 +6,7 @@ When a language model classifies a document, multiple features often independent
 
 The framework is built on Rothman's (1976) epidemiological Sufficient Cause Model and applied to Llama-3-8B-Instruct on WOS-46985. The central finding is that the subclass representational subspace and the output decision axis are causally independent: removing everything the model knows about subclass identity from its hidden state leaves the prediction unchanged, while flipping the prediction moves the representation into a different CS subclass, not into Medical. Two fully independent subspaces.
 
-Course project for CS 7180 Actionable Interpretability.
-
-Advisor: [Bryan Wallace](https://www.byronwallace.com/).
+Course project for CS 7180 Actionable Interpretability, Northeastern University, Spring 2026. Advisor: Bryan Wallace.
 
 ---
 
@@ -26,12 +24,14 @@ Advisor: [Bryan Wallace](https://www.byronwallace.com/).
 
 ## Notebooks
 
-| Notebook | Drive cache | What it does |
+All notebooks are linked directly to Google Drive. Click any notebook name in the table to open it.
+
+| Notebook (click to open) | Drive cache | What it does |
 |---|---|---|
-| `SCD_Final_Notebook_final.ipynb` | `SCD_Final.zip` | Main pipeline: LDA geometry, gradient attribution, causal patching, full population results. Last cell runs the LDA axis intervention. |
-| `SCD_LayerToken_Sweep_final.ipynb` | `SCD_LayerStrat.zip` | Sweeps 70 layer x token strategy combinations and justifies layer 29 last token as the extraction point. |
-| `SCD_RealWorld_final.ipynb` | `SCD_RealWorld.zip` | Applies the same pipeline without modification to resume screening across skills, credentials, and demographics tracks. |
-| `SCD_LDA_Flip.ipynb` | `SCD_Final.zip` | Tests whether patching along LDA axes, including the principled centroid-to-centroid direction, can flip predictions. It cannot. |
+| [`SCD_Final_Notebook_final.ipynb`](https://drive.google.com/file/d/1xhA6vSJTRB7HU09oJ1ee38Z0qe137UvB/view?usp=sharing) | `SCD_Final.zip` | Main pipeline: LDA geometry, gradient attribution, causal patching, full population results. Last cell runs the LDA axis intervention. |
+| [`SCD_LayerToken_Sweep_final.ipynb`](https://drive.google.com/file/d/138Q1mMjX3nogcZevs3h5f4qjyNrYzCmy/view?usp=sharing) | `SCD_LayerStrat.zip` | Sweeps 70 layer x token strategy combinations and justifies layer 29 last token as the extraction point. |
+| [`SCD_RealWorld_final.ipynb`](https://drive.google.com/file/d/1wMqkZT9THBoBej4cBoSyD1JcSw4qM_CK/view?usp=sharing) | `SCD_RealWorld.zip` | Applies the same pipeline without modification to resume screening across skills, credentials, and demographics tracks. |
+| [`SCD_LDA_Flip.ipynb`](https://drive.google.com/file/d/1dQS8yd7J73KZBQRA07HKZ0OxAqobDA5s/view?usp=sharing) | `SCD_Final.zip` | Tests whether patching along LDA axes, including the principled centroid-to-centroid direction, can flip predictions. It cannot. |
 
 ---
 
